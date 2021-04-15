@@ -260,3 +260,54 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.5rem;
+    position: relative;
+}
+
+.service {
+    background: var(--bg-accent);
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    z-index: 50;
+}
+
+.service h3 {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.service span {
+    font-size: 3.5rem;
+    color: var(--main);
+    display: inline-block;
+    margin: 1rem 0rem;
+}
+
+.service p {
+    color: var(--font);
+    font-size: .85rem;
+    line-height: 1.8rem;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0rem 3rem 0rem;
+}
+
+.brands span {
+    color: var(--font);
+    display: inline-block;
+    font-size: 4rem;
+    margin-right: 4rem;
+}
+
+.brands span:last-child {
+    margin-right: 0rem;
+}
