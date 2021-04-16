@@ -207,6 +207,11 @@ section {
     margin-bottom: 3rem;
 }
 
+.skill {
+    display: grid;
+    justify-content: center;
+}
+
 .percircle {
     background: var(--bg-accent);
 }
@@ -564,11 +569,6 @@ footer {
 
     .skills-wrapper {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .skill {
-        display: grid;
-        justify-content: center;
     }
 
     .skill p {
